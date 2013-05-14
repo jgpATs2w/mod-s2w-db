@@ -1,0 +1,118 @@
+1364063359|debug|index#select count(uname) from main where uname='eleuteron'; 1
+1364063742|debug|index#select count(uname) from main where uname='eleuteron'; 1
+1364063744|debug|index#select count(uname) from main where uname='eleuteron'; 1
+1364063745|debug|index#select count(uname) from main where uname='eleuteron'; 1
+1364069507|debug|index#select count(uname) from main where uname='eleuteron'; 1
+1364069551|debug|index#select count(uname) from main where uname='eleuteron'; 1
+1364069648|debug|index#select count(uname) from main where uname='eleuteron'; 1
+1364737395|error|index#ERROR on query 'select count(key) from main where key='algo';'ERROR:  relation "main" does not exist
+LINE 1: select count(key) from main where key='algo';
+                               ^
+1364737601|error|index#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1364737640|error|index#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1364738079|error|index#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1364738139|error|index#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1364738276|error|index#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1364738276|error|index#ERROR on query 'insert into rpc5 (key, value) VALUES ('otro',55);'ERROR:  relation "rpc5" does not exist
+LINE 1: insert into rpc5 (key, value) VALUES ('otro',55);
+                    ^
+1364738288|error|index#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1364738288|error|index#ERROR on query 'insert into rpc5 (key, value) VALUES ('otro',55);'ERROR:  relation "rpc5" does not exist
+LINE 1: insert into rpc5 (key, value) VALUES ('otro',55);
+                    ^
+1364738305|error|index#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1364739018|error|index#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1364739059|error|index#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1365252842|error|index#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1365252849|error|index#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1365265808|debug|index.php#query select count(key) from rpc where key='algo';
+1365265808|debug|index.php#query select * from rpc;
+1365265808|debug|index.php#query create table rpc2 (inherits rpc);
+1365265808|error|index.php#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1365265808|debug|index.php#query select count(key) from rpc where key='algo'
+1365280493|debug|index.php#query select count(key) from rpc where key='algo';
+1365280493|debug|index.php#query select * from rpc;
+1365280556|debug|index.php#query select count(key) from rpc where key='algo';
+1365280556|debug|index.php#query select * from rpc;
+1365280556|debug|index.php#query create table rpc2 (inherits rpc);
+1365280556|error|index.php#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1365280599|debug|index.php#query select count(key) from rpc where key='algo';
+1365280600|debug|index.php#query select * from rpc;
+1365280600|debug|index.php#query create table rpc2 (inherits rpc);
+1365280600|error|index.php#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1365536035|debug|index.php#query select count(key) from rpc where key='algo';
+1365536035|debug|index.php#query select * from rpc;
+1365536035|debug|index.php#query create table rpc2 (inherits rpc);
+1365536035|error|index.php#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1365872134?debug?index.php#query select count(key) from rpc where key='algo';
+1365872135?debug?index.php#query select * from rpc;
+1365872135?debug?index.php#query create table rpc2 (inherits rpc);
+1365872135?error?index.php#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1365872138?debug?index.php#query select count(key) from rpc where key='algo';
+1365872138?debug?index.php#query select * from rpc;
+1365872138?debug?index.php#query create table rpc2 (inherits rpc);
+1365872138?error?index.php#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1365872246?debug?index.php#query select count(key) from rpc where key='algo';
+1365872246?debug?index.php#query select * from rpc;
+1365872246?debug?index.php#query create table rpc2 (inherits rpc);
+1365872246?error?index.php#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1365872373?debug?index.php#query select count(key) from rpc where key='algo';
+1365872373?debug?index.php#query select * from rpc;
+1365872373?debug?index.php#query create table rpc2 (inherits rpc);
+1365872373?error?index.php#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1365971192|debug|index.php#query select count(key) from rpc where key='algo';
+1365971192|debug|index.php#query select * from rpc;
+1365971192|debug|index.php#query create table rpc2 (inherits rpc);
+1365971192|error|index.php#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1365971390|debug|index.php#query select count(key) from rpc where key='algo';
+1365971390|debug|index.php#query select * from rpc;
+1365971390|debug|index.php#query create table rpc2 (inherits rpc);
+1365971390|error|index.php#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1366660291|debug|index.php#query select count(key) from rpc where key='algo';
+1366660291|debug|index.php#query select * from rpc;
+1366660291|debug|index.php#query create table rpc2 (inherits rpc);
+1366660291|error|index.php#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1366660552|debug|index.php#query select count(key) from rpc where key='algo';
+1366660552|debug|index.php#query select * from rpc;
+1366660552|debug|index.php#query create table rpc2 (inherits rpc);
+1366660552|error|index.php#ERROR on query 'create table rpc2 (inherits rpc);'ERROR:  relation "rpc2" already exists
+1367659434|debug|index.php#query create table rpc (id serial, key text, value text);
+1367659434|error|index.php#ERROR on query 'create table rpc (id serial, key text, value text);'ERROR:  relation "rpc" already exists
+1367659434|debug|index.php#query select count(key) from rpc where key='algo';
+1367659434|debug|index.php#query select * from rpc;
+1367659451|debug|index.php#query create if not exists table rpc (id serial, key text, value text);
+1367659451|error|index.php#ERROR on query 'create if not exists table rpc (id serial, key text, value text);'ERROR:  syntax error at or near "if"
+LINE 1: create if not exists table rpc (id serial, key text, value t...
+               ^
+1367659451|debug|index.php#query select count(key) from rpc where key='algo';
+1367659451|debug|index.php#query select * from rpc;
+1367659464|debug|index.php#query create if not exist table rpc (id serial, key text, value text);
+1367659464|error|index.php#ERROR on query 'create if not exist table rpc (id serial, key text, value text);'ERROR:  syntax error at or near "if"
+LINE 1: create if not exist table rpc (id serial, key text, value te...
+               ^
+1367659464|debug|index.php#query select count(key) from rpc where key='algo';
+1367659464|debug|index.php#query select * from rpc;
+1367659656|debug|index.php#query create table rpc (id serial, key text, value text);
+1367659656|error|index.php#ERROR on query 'create table rpc (id serial, key text, value text);'ERROR:  relation "rpc" already exists
+1367659656|debug|index.php#query select count(key) from rpc where key='algo';
+1367659656|debug|index.php#query select * from rpc;
+1367659668|debug|index.php#query create table rpc (id serial, key text, value text);
+1367659668|error|index.php#ERROR on query 'create table rpc (id serial, key text, value text);'ERROR:  relation "rpc" already exists
+1367659668|debug|index.php#query select count(key) from rpc where key='algo';
+1367659668|debug|index.php#query select * from rpc;
+1368524850|debug|index.php#query create table rpc (id serial, key text, value text);
+1368524851|error|index.php#ERROR on query 'create table rpc (id serial, key text, value text);'ERROR:  relation "rpc" already exists
+1368524851|debug|index.php#query insert into rpc (key, value) values ('llave', 'valor')
+1368524851|error|index.php#ERROR on query 'insert into rpc (key, value) values ('llave', 'valor')'ERROR:  invalid input syntax for type real: "valor"
+LINE 1: insert into rpc (key, value) values ('llave', 'valor')
+                                                      ^
+1368524851|debug|index.php#query select count(key) from rpc where key='algo';
+1368524851|debug|index.php#query select * from rpc;
+1368525562|debug|index.php#query create table rpc (id serial, key text, value text);
+1368525562|error|index.php#ERROR on query 'create table rpc (id serial, key text, value text);'ERROR:  relation "rpc" already exists
+1368525562|debug|index.php#query insert into rpc (key, value) values ('llave', 'valor')
+1368525562|error|index.php#ERROR on query 'insert into rpc (key, value) values ('llave', 'valor')'ERROR:  invalid input syntax for type real: "valor"
+LINE 1: insert into rpc (key, value) values ('llave', 'valor')
+                                                      ^
+1368525562|debug|index.php#query select count(key) from rpc where key='algo';
+1368525562|debug|index.php#query select * from rpc;
